@@ -167,7 +167,7 @@ if __name__ == "__main__":
     start_place = input("Enter Departure Place: ")
     end_place = input("Enter Destination Place: ")
 
-    api_key = os.getenv("TOMTOM_API_KEY", "oTAa4xpFZoxGCF8BifBq1o5xlFo9XNCN")  # Replace with your TomTom API key
+    api_key = os.getenv("TOMTOM_API_KEY", " ")  # Replace with your TomTom API key
 
     inputs = {
         "start_place": start_place,
